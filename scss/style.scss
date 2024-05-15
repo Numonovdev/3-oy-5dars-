@@ -229,6 +229,11 @@ body{
         width: var(--botton-width);
         height: var(--botton-height);
         margin-top: 25px;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    button:hover{
+        background-color: green;
     }
 
 }
